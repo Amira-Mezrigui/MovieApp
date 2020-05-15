@@ -1,0 +1,116 @@
+.App {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+  }
+.mainVideos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.aside{
+    width: 200px;
+    margin-top: 120px;
+    padding-top: 10px;
+    margin-left: 50px;
+    padding-right: 20px;
+    padding-left: 0;
+    position: relative;
+    
+}
+aside h1{
+    color:rgb(102, 4, 4)
+}
+aside button{
+    font-size: x-large;
+    background-color: rgb(102, 4, 4);
+    color:white;
+}
+.inlineaside{
+    position: fixed;
+    box-shadow: 5px 50px 15px 5px rgb(175, 150, 4) inset;
+    border-radius: 10px;
+    background-color: lightgrey;
+    width: 220px;
+    height: 350px;
+    text-align: center;
+    
+    
+
+}
+.navbar {
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 120px;
+    background-color:rgb(102, 4, 4);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    z-index: 144444;
+    position: fixed;
+    box-shadow: 10px 5px 5px rgb(116, 115, 114);
+    text-align: center;
+    
+}
+.navbar div {
+    padding-top: 30px;
+    padding-right: 10px;
+    color: ivory;
+    font-size: 25px;
+
+}
+.navbarlink{
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+.navbarsearch{
+    padding: 0.5rem 1rem;
+    height: 20px;
+    outline: none;
+    border:none;
+    background-color: #fff;
+    width: 300px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+.navbarsearch:hover{
+    border: 1px solid rgb(255, 44, 44)
+}
+.navbarlink:hover{
+    color:grey;
+}
+.starRating button{
+    background-color: rgb(102, 4, 4);
+    border: none;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+}
+.resetRate button{
+    background-color: rgb(102, 4, 4);
+    border: none;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+
+}
+.mainSign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin-left: 50px;
+    background-color: white;
+    border: 5px solid rgb(102, 4, 4);
+    
+    width: 90%;
+}

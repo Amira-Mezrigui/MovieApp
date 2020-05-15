@@ -1,0 +1,35 @@
+.favoritemovies {
+    margin: auto;
+    padding-top: 200px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 5px solid rgb(102, 4, 4);
+    width: 90%;
+    
+}
+.favoritemovie{
+    width: 250px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    background-color:lightgray;
+    box-shadow: 5px 50px 15px 5px rgb(102, 4, 4) inset;
+    
+}
+.favoritemovie img {
+    width: 200px;
+    height: 250px;
+    padding-left: 20px;
+}
+.favoritemovie h4{
+    margin:0;
+    color: white ;
+    font-family: 'Trocchi', serif; 
+    font-size: 25px; 
+    font-weight: normal; 
+    line-height: 28px; 
+    
+}

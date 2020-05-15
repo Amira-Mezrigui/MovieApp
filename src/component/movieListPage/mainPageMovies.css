@@ -1,0 +1,65 @@
+.moviess {
+    
+    margin: 0;
+    margin-top: 120px;
+    padding-top: 50px;
+    margin-right: 50px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 5px solid rgb(102, 4, 4);
+    
+    width: 70%;
+    
+}
+.movie{
+    width: 250px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    background-color:lightgray;
+    box-shadow: 5px 50px 15px 5px rgb(102, 4, 4) inset;
+    
+}
+.movie img {
+    width: 200px;
+    height: 250px;
+    padding-left: 20px;
+}
+.movie h4{
+    margin:0;
+    color: white ;
+    font-family: 'Trocchi', serif; 
+    font-size: 25px; 
+    font-weight: normal; 
+    line-height: 28px; 
+    
+}
+.buttonfav {
+    background-color:  rgb(252, 231, 44); 
+    color: white;
+    border-radius: 20%;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 100px;
+    height: 30px;
+  }
+  .buttonfav:hover {
+    background-color: rgb(102, 4, 4);
+    color: white;
+  }
+  .buttonDescription {
+    background-color:  rgb(252, 231, 44); 
+    color: white;
+    border-radius: 20%;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 100px;
+    height: 30px;
+  }
+  .buttonDescription:hover {
+    background-color: rgb(102, 4, 4);
+    color: white;
+  }
