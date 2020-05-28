@@ -7,11 +7,14 @@ import Description from './component/movieDescription/movieDescription'
 import listOfMovies from './component/movieListPage/listOfMovies'
 import SignIn from './component/sign-in-up/signIn';
 import SignUp from './component/sign-in-up/signUp';
+import Loader from "react-loader-spinner";
+
 
 class App extends React.Component {
   constructor() {
     super();
     this.state={
+      isLoading:true,
       search:null,
       isLogin:false,
       ModalShow:false,
@@ -31,6 +34,12 @@ class App extends React.Component {
     this.f= [];
 
   }
+  componentDidMount() {
+    setTimeout(() =>{
+      this.setState({isLoading:false})
+    },5000)
+  }
+  
   /************* search movie with his rate , filter by rate */
   getRate = (el) => {
     this.setState(
@@ -154,7 +163,7 @@ class App extends React.Component {
         
       </nav>
       </div>
-    
+     {this.state.isLoading? ( <div className="spinner"><Loader type="BallTriangle" color="rgb(102, 4, 4)" height={500} width={200} /></div>):
       <Switch> 
         <Route exact path="/">
           {this.state.ModalShow ? (
@@ -192,7 +201,7 @@ class App extends React.Component {
           <SignUp/>
           </div>
         </Route>
-      </Switch>
+      </Switch>}
       
       
     </div>

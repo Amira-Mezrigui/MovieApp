@@ -4,6 +4,9 @@
     height: 100%;
 
   }
+.spinner{
+    text-align: center;
+}
 .mainVideos{
 
     display: flex;
